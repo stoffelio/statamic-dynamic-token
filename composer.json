@@ -1,0 +1,33 @@
+{
+  "name": "webographen/statamic-dynamic-token",
+  "license": "MIT",
+  "type": "statamic-addon",
+  "description": "Dynamic tokens for statically cached forms in Statamic v3",
+  "autoload": {
+    "psr-4": {
+      "Webographen\\DynamicToken\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander Stoffel",
+      "email": "alex@stoffel.io",
+      "homepage": "https://weboographen.de",
+      "role": "Founder"
+    }
+  ],
+  "extra": {
+    "statamic": {
+      "name": "Dynamic Tokens für Static Forms",
+      "description": "Dynamic tokens for statically cached forms in Statamic v3"
+    },
+    "laravel": {
+      "providers": [
+        "Webographen\\DynamicToken\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "statamic/cms": "^3.0"
+  }
+}
