@@ -8,14 +8,6 @@
       "Webographen\\DynamicToken\\": "src"
     }
   },
-  "authors": [
-    {
-      "name": "Alexander Stoffel",
-      "email": "alex@stoffel.io",
-      "homepage": "https://weboographen.de",
-      "role": "Founder"
-    }
-  ],
   "extra": {
     "statamic": {
       "name": "Dynamic Tokens für Static Forms",
