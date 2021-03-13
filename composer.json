@@ -10,7 +10,7 @@
   },
   "extra": {
     "statamic": {
-      "name": "Dynamic Tokens für Static Forms",
+      "name": "Dynamic Tokens",
       "description": "Dynamic tokens for statically cached forms in Statamic v3"
     },
     "laravel": {

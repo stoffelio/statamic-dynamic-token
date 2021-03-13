@@ -1,10 +1,12 @@
-# Statamic Dynamic Token
+# Statamic Dynamic Token ![Statamic 3](https://img.shields.io/badge/statamic-3-blue.svg?style=flat-square)
 
 Allows you to use standard Statamic v3 forms while also leveraging static caching.
 
-WIP: This addon is currently still in development.
+## Requirements
 
-## Install
+- Statamic v3
+
+## Installation
 
 From your site folder, run `composer require webographen/statamic-dynamic-token`
 
@@ -12,7 +14,7 @@ From your site folder, run `composer require webographen/statamic-dynamic-token`
 
 Add the `{{ dynamic_token }}` tag to the view so it appears on the same page as your form.
 
-The inserted JS add tokens to all forms that have an input with `name="_token"`.
+The inserted JS adds tokens to all forms that have an input with `name="_token"`.
 
 Tokens are refreshed every 15 minutes to prevent time-out.
 
