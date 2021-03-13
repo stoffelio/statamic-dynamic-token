@@ -1,4 +1,6 @@
-# Statamic Dynamic Token ![Statamic 3](https://img.shields.io/badge/statamic-3-blue.svg?style=flat-square)
+# Statamic Dynamic Token
+
+![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 
 Allows you to use standard Statamic v3 forms while also leveraging static caching.
 
@@ -12,7 +14,7 @@ From your site folder, run `composer require webographen/statamic-dynamic-token`
 
 ## Usage
 
-Add the `{{ dynamic_token }}` tag to the view so it appears on the same page as your form.
+Add the `{{ dynamic_token }}` tag to the view, so it appears on the same page as your form.
 
 The inserted JS adds tokens to all forms that have an input with `name="_token"`.
 
